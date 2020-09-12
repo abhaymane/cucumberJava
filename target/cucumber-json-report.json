@@ -1,0 +1,82 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2020-09-12T11:38:35.501Z",
+        "before": [
+          {
+            "result": {
+              "duration": 20276000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.HooksStepdefinition.setUp()"
+            }
+          }
+        ],
+        "line": 2,
+        "name": "Free CRM create deal test",
+        "description": "",
+        "id": "free-crm-application-test;free-crm-create-deal-test",
+        "after": [
+          {
+            "result": {
+              "duration": 1000000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepsDefinition.HooksStepdefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 29740000000,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user is on deal page",
+            "match": {
+              "location": "StepsDefinition.HooksStepdefinition.user_is_on_deal_page()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 4736000000,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user fills the deal form",
+            "match": {
+              "location": "StepsDefinition.HooksStepdefinition.user_fills_the_deal_form()"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 323000000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "deal is created",
+            "match": {
+              "location": "StepsDefinition.HooksStepdefinition.deal_is_created()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Free CRM application test",
+    "description": "",
+    "id": "free-crm-application-test",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/Features/hooks.feature",
+    "tags": []
+  }
+]
